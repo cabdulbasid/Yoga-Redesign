@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Anybody", sans-serif;
+  background-color: #dfdfd8;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: min(90%, 1120px);
+  margin-inline: auto;
+}
+
+header {
+  background-color: #fafaf6;
+  height: 4.5rem;
+  position: sticky;
+  top: 0;
+}
+
+/* Desktop Menu */
+
+.desktop-menu {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menus-link {
+  display: flex;
+  gap: 20px;
+}
+
+.menus-link li {
+  list-style: none;
+}
+
+.menus-link li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #2b2b2b;
+}
+
+.menus-link li a:hover {
+  color: #5f6ad4;
+}
+
+.desktop-menu h1 {
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
+
+.humberger {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.primary-btn,
+.secondary-btn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25rem;
+  background-color: #5f6ad4;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+/* Hero Section */
+/* Hero Section */
+
+.hero {
+  display: flex;
+  height: calc(100vh - 4.5rem);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)),
+    url("https://mobirise.com/extensions/retreatm5/outdoor-yoga-classes/assets/images/pexels-min-an-1234035.jpg")
+      bottom/cover no-repeat;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hero-content h1 {
+  font-weight: 400;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+.btn {
+  font-size: 1.25rem;
+  padding: 1rem 3rem;
+  background-color: #5f6ad4;
+  color: #fff;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #fafaf6;
+  color: #000;
+}
+
+/* Yoga Section */
+
+.yogi {
+  display: flex;
+  height: 100vh;
+  margin-top: 5rem;
+  border-radius: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      center/cover no-repeat;
+  color: #fff;
+}
+
+.yoga-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  max-width: 720px;
+  margin-inline: auto;
+  margin-bottom: 7rem;
+}
+
+.yoga-content h1 {
+  font-weight: 700;
+  font-size: 3.125rem;
+  text-align: center;
+}
+
+.yoga-content p {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Info Section */
+
+.info-boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-block: 6rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.box img {
+  border-radius: 1rem;
+}
+
+.box .btn {
+  padding: 0.8rem 1.6rem;
+}
+
+.box h1 {
+  font-weight: 400;
+  font-size: 1.5625rem;
+  color: #2b2b2b;
+}
+
+.box p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #646464;
+}
+
+/* Perfect Section */
+
+.perfect-section {
+  height: 438px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(120, 120, 120, 0.5),
+      rgba(120, 120, 120, 0.5)
+    ),
+    url("https://mobirise.com/extensions/retreatm5/outdoor-yoga-classes/assets/images/pexels-andrea-piacquadio-3779750.jpeg")
+      center/cover no-repeat;
+  background-attachment: fixed;
+}
+
+.perfect-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.perfect-content h2 {
+  font-weight: 400;
+  font-size: 3.125rem;
+  color: #2a2a2a;
+}
+
+.perfect-content p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #2b2b2b;
+}
+
+/* Write-to-us Section */
+
+.write-to-us-section {
+  height: 355px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(120, 120, 120, 0.5),
+      rgba(120, 120, 120, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1602276507500-600178f63aae?q=80&w=1387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      top/cover no-repeat;
+  margin-top: 5rem;
+}
+
+.write-to-us {
+  /* height: 50%; */
+  background-color: #dfdfd8;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  border: 2px solid #5f6ad4;
+  border-radius: 1rem;
+}
+
+/* Footer Section */
+
+.footer {
+  background-color: #2a2a2a;
+  color: #fff;
+  font-size: 1.25rem;
+  padding-block: 2rem;
+}
+
+/* Nav Menu Responsiveness */
+/* Tablet and Phones */
+
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  header {
+    height: 0;
+  }
+
+  i {
+    z-index: 1;
+  }
+
+  .humberger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* top: 10%; */
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5f6ad4;
+    color: #fafaf6;
+    font-size: 1.8rem;
+    margin-top: 7%;
+  }
+
+  .mobile-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #2b2b2b;
+    color: #fff;
+    position: fixed;
+    inset: 0 0 0 0;
+    transform: translateX(0%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .mobile-menu[data-visible="false"] {
+    transform: translateX(100%);
+  }
+
+  .humberger i[data-visible="true"] {
+    display: block;
+  }
+
+  .humberger i[data-visible="false"] {
+    display: none;
+  }
+
+  .mob-navigation {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .menus-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-menu h1 {
+    font-weight: 700;
+    font-size: 2.313rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+  }
+
+  .mobile-menu .mob-navigation .menus-link a:link,
+  .mobile-menu .mob-navigation .menus-link a:visited {
+    color: #fff;
+  }
+
+  .mobile-menu .mob-navigation .menus-link a:hover,
+  .mobile-menu .mob-navigation .menus-link a:active {
+    color: #5f6ad4;
+  }
+
+  .hero {
+    height: 100vh;
+  }
+
+  .hero-content h1 {
+    font-size: 3.0625rem;
+  }
+
+  .yoga-content {
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+
+  .yoga-content h1 {
+    font-size: 2.125rem;
+  }
+
+  .yoga-content p {
+    font-size: 1.3125rem;
+  }
+
+  .info-boxes {
+    grid-template-columns: 1fr;
+  }
+
+  .perfect-content h2 {
+    font-size: 2.125rem;
+  }
+
+  .perfect-content p {
+    font-size: 1.125rem;
+  }
+
+  .write-to-us {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
